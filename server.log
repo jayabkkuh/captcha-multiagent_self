@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/qiu/Desktop/captcha/main.py", line 18, in <module>
+    main()
+  File "/Users/qiu/Desktop/captcha/main.py", line 14, in main
+    run_server(host=args.host, port=args.port, ttl_seconds=args.ttl, debug=args.debug)
+  File "/Users/qiu/Desktop/captcha/captcha/server.py", line 2381, in run_server
+    httpd = ThreadingHTTPServer((host, port), Handler)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 48] Address already in use
