@@ -1,0 +1,3 @@
+127.0.0.1 - - [28/Nov/2025 14:19:01] "GET /captcha?type=grid HTTP/1.1" 200 -
+127.0.0.1 - - [28/Nov/2025 14:19:01] "GET /captcha?type=anagram HTTP/1.1" 200 -
+127.0.0.1 - - [28/Nov/2025 14:19:01] "GET /captcha?type=click HTTP/1.1" 200 -
